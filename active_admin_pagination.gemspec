@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Timo Schilling"]
   spec.email         = ["timo@schilling.io"]
   spec.summary       = %q{Provides a pagination 'per page' interface for ActiveAdmin.}
-  spec.description   = %q{Provides a pagination 'per page' interface for ActiveAdmin. It renders a sidebar section with a numeric select and modifies the Controller to use that 'per page'' value.}
+  spec.description   = %q{Provides a pagination 'per page' interface for ActiveAdmin. It renders a sidebar section with a numeric select and modifies the Controller to use that 'per page' value.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
