@@ -1,7 +1,8 @@
 require "active_admin_pagination/version"
 require "active_admin_pagination/engine"
 require "active_admin_pagination/resource_dsl"
-require "active_admin/dsl" # encure that ActiveAdmin::DSL is loaded
+# ensure that ActiveAdmin is loaded
+require "active_admin"
 
 module ActiveAdminPagination
 end
