@@ -18,6 +18,14 @@ And then execute:
       pagination [10, 50, 100], 50
     end
 
+## TODO`s
+
+* Use `Kaminari.config.param_name`
+* Use `.arb` instead of `.erb` views
+* Set ActiveAdmin dependency
+* Set gemspec homepage
+* Extend `Usage` section
+
 ## Contributing
 
 1. Fork it ( https://github.com/timoschilling/active_admin_pagination/fork )
