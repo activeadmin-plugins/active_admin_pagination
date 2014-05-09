@@ -1,6 +1,6 @@
 # ActiveAdminPagination
 
-TODO: Write a gem description
+Provides a pagination 'per page' interface for ActiveAdmin. It renders a sidebar section with a numeric select and modifies the Controller to use that 'per page' value.
 
 ## Installation
 
@@ -12,17 +12,15 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install active_admin_pagination
-
 ## Usage
 
-TODO: Write usage instructions here
+    ActiveAdmin.register Post do
+      pagination [10, 50, 100], 50
+    end
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/active_admin_pagination/fork )
+1. Fork it ( https://github.com/timoschilling/active_admin_pagination/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
