@@ -1,5 +1,5 @@
 module ActiveAdminPagination
-  module PaginationSidebar
+  module ResourceDSL
     def pagination per_page_sizes, per_page_default_size = per_page_sizes.first
       controller do
         before_filter :paginate
