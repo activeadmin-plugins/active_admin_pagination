@@ -1,0 +1,18 @@
+<div id="pagination_form">
+  <%= form_tag do %>
+    <div class="filter_form_field filter_string select_and_search">
+      <%= label_tag :per_page, "Number of Items per page:", class: "label" %>
+      <%= select_tag :per_page, options_for_select([10, 50, 100], params[:per_page]), include_blank: true %>
+    </div>
+    <div class="buttons">
+      <%= submit_tag "Set" %>
+    </div>
+  <% end %>
+</div>
+
+<script>
+  $("#pagination_form form").submit(function(e){
+    e.preventDefault();
+    window.location = "?per_page=" + $("#per_page").val();
+  })
+</script>
