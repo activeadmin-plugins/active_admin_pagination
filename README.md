@@ -2,6 +2,10 @@
 
 Provides a pagination 'per page' interface for ActiveAdmin. It renders a sidebar section with a numeric select and modifies the Controller to use that 'per page' value.
 
+## :warning: Unmaintained :warning:
+
+Since [activeadmin/activeadmin#3815](https://github.com/activeadmin/activeadmin/pull/3815) ActiveAdmin has native support for 'per page' interface. So this gem is now deprecated and will no longer maintained!
+
 ## Installation
 
 Add this line to your application's Gemfile:
