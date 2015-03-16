@@ -4,7 +4,7 @@ Provides a pagination 'per page' interface for ActiveAdmin. It renders a sidebar
 
 ## :warning: Unmaintained :warning:
 
-Since [activeadmin/activeadmin#3815](https://github.com/activeadmin/activeadmin/pull/3815) ActiveAdmin has native support for 'per page' interface. So this gem is now deprecated and will no longer maintained!
+Since [activeadmin/activeadmin#3815](https://github.com/activeadmin/activeadmin/pull/3748) ActiveAdmin has native support for 'per page' interface. So this gem is now deprecated and will no longer maintained!
 
 ## Installation
 
